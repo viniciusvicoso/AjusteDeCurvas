@@ -29,6 +29,6 @@ main()
 	a1=((t*xy) - (x*y)) / ((t*xx) - (pow(x,2)));
 	a0=((xx*y) - (xy*x)) / ((t*xx) - (pow(x,2)));
 	
-	
+	printf("\nA1 = %lf\nA0 = %lf\n",a1,a0);
 }
 	
